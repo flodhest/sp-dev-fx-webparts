@@ -1,0 +1,89 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > extend':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > extend
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > extend':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > extend
+  'npm:hoek:20180212':
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > hawk > hoek
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > boom > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > hawk > boom > hoek
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > sntp > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > hawk > sntp > hoek
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > hawk > hoek
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > boom > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > hawk > boom >
+          hoek
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > hawk > sntp > hoek':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > hawk > sntp >
+          hoek
+  'npm:stringstream:20180511':
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > stringstream':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > stringstream
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > stringstream':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > stringstream
+  'npm:tough-cookie:20170905':
+    - '@microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > tough-cookie':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @microsoft/sp-core-library > @microsoft/sp-module-interfaces >
+          z-schema > request > tough-cookie
+    - '@microsoft/sp-webpart-base > @microsoft/decorators > @microsoft/sp-loader > @microsoft/sp-core-library > @microsoft/sp-module-interfaces > z-schema > request > tough-cookie':
+        patched: '2023-08-30T23:17:40.434Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @microsoft/sp-webpart-base > @microsoft/decorators >
+          @microsoft/sp-loader > @microsoft/sp-core-library >
+          @microsoft/sp-module-interfaces > z-schema > request > tough-cookie
