@@ -16,14 +16,14 @@
     "@microsoft/sp-lodash-subset": "1.11.0",
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
-    "@microsoft/sp-webpart-base": "1.11.0",
+    "@microsoft/sp-webpart-base": "1.12.0",
     "@pnp/sp": "^2.0.5",
     "ace-builds": "^1.4.11",
     "office-ui-fabric-react": "6.214.0",
     "react": "16.8.5",
     "react-ace": "^9.1.1",
     "react-dom": "16.8.5",
-    "react-json-view": "^1.19.1"
+    "react-json-view": "^1.20.2"
   },
   "resolutions": {
     "@types/react": "16.8.8"
