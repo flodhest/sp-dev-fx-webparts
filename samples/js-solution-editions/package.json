@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "~1.1.0",
-    "@microsoft/sp-webpart-base": "~1.1.1",
+    "@microsoft/sp-webpart-base": "~1.8.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0"
   },
   "devDependencies": {
