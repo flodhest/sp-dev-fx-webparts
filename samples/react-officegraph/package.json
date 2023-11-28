@@ -12,9 +12,9 @@
   "dependencies": {
     "@microsoft/sp-client-base": "~1.0.0",
     "@microsoft/sp-core-library": "~1.0.0",
-    "@microsoft/sp-webpart-base": "~1.0.0",
+    "@microsoft/sp-webpart-base": "~1.8.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-	  "office-ui-fabric-react": "4.1.1",
+	  "office-ui-fabric-react": "5.0.1",
     "react": "^15.5.0",
     "react-dom": "15.5.4"
   },
