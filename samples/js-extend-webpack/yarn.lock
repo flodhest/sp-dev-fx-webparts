@@ -22,6 +22,13 @@
     typescript "~2.4.1"
     z-schema "~3.18.3"
 
+"@microsoft/decorators@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.4.1.tgz#7d613fedd8a4d379ed051cd7114f1fc9419af236"
+  integrity sha512-tBUBN/DNdNBX9m5H9iUnutmoM31Z+X5FSb3Kn3wc72QQ9U/NQW8QqA7KyZmzjBtQwag4hR6pF1Nce1gWvJcpKg==
+  dependencies:
+    tslib "~1.8.0"
+
 "@microsoft/decorators@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.3.4.tgz#cc92be21a685ecc14d3a710a49246d546cfc276a"
@@ -168,6 +175,16 @@
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.7.4.tgz#dd253d80c8220913d27ab06ee56c4b2ec451f3d3"
 
+"@microsoft/load-themed-styles@1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.7.9.tgz#81ef6b5fa06a6f201bfadbab931fd52943b64013"
+  integrity sha512-XxDxvSdl0BsrF3v+GQGwQYPFCI9ItHDVGdjIJ9d2QLzL+HRHwkfzGcZ7fpr7R4NemGIEz/jQHg1a14I4XS2tUA==
+
+"@microsoft/load-themed-styles@^1.7.13":
+  version "1.10.295"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.295.tgz#d3c8d7ab186f422727ba112d6ebe5fe8e41051d9"
+  integrity sha512-W+IzEBw8a6LOOfRJM02dTT7BDZijxm+Z7lhtOAz1+y9vQm1Kdz9jlAO+qCEKsfxtUOmKilW8DIRqFw2aUgKeGg==
+
 "@microsoft/load-themed-styles@^1.7.2":
   version "1.10.41"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.41.tgz#70c017cb3198a0844e0823c08de77e4c4f8bd190"
@@ -215,6 +232,19 @@
     fs-extra "~0.26.7"
     jju "~1.3.0"
     z-schema "~3.18.3"
+
+"@microsoft/office-ui-fabric-react-bundle@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/office-ui-fabric-react-bundle/-/office-ui-fabric-react-bundle-1.4.1.tgz#6891eb66672525b9881f074e47e82009c089e1be"
+  integrity sha512-e1cmTwf2sAlPXINouSt3ufxfEJMX1JFlxzkJTsM4jsfgbd10BCSDWDGkNHU1S2LFpD6z99mFpkiktdyMU/8PlA==
+  dependencies:
+    "@types/react" "15.6.6"
+    "@types/webpack-env" "1.13.1"
+    "@uifabric/icons" "5.2.0"
+    office-ui-fabric-react "5.21.0"
+    react "15.6.2"
+    react-dom "15.6.2"
+    tslib "~1.8.0"
 
 "@microsoft/office-ui-fabric-react-bundle@~1.3.0", "@microsoft/office-ui-fabric-react-bundle@~1.3.4":
   version "1.3.4"
@@ -384,6 +414,19 @@
     react "15.4.2"
     react-dom "15.4.2"
 
+"@microsoft/sp-component-base@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.4.1.tgz#5c04eac249b7f54116ae1ec33d64eaabd788fc9f"
+  integrity sha512-yGSfHdF+bpHBDpYoofa7EqNOlZYS4Ew4IBKaxchm/GzUxdII2w02v82osWXBRJEf6UWXiT6ho7hsRG9Q2A0Llg==
+  dependencies:
+    "@microsoft/decorators" "1.4.1"
+    "@microsoft/sp-core-library" "1.4.1"
+    "@microsoft/sp-loader" "1.4.1"
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@microsoft/sp-module-interfaces" "1.4.1"
+    "@microsoft/sp-page-context" "1.4.1"
+    "@types/webpack-env" "1.13.1"
+
 "@microsoft/sp-component-base@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.3.4.tgz#00ceb67ecb0c111ee166e1f924ff1b9fc488d6e6"
@@ -397,6 +440,16 @@
     "@types/es6-collections" "0.5.29"
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
+
+"@microsoft/sp-core-library@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.4.1.tgz#b1734e601510c709d7d8187c923359222cb5d23d"
+  integrity sha512-SyPFJHVqGAeF+UoRnyn2Pbgk1SQ53kyfAKlHwK3kiGyeTDY9W9uwmWIaV6krJi2+NethzABSXW1h6PlZbEb02w==
+  dependencies:
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@microsoft/sp-module-interfaces" "1.4.1"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
 
 "@microsoft/sp-core-library@~1.3.0", "@microsoft/sp-core-library@~1.3.4":
   version "1.3.4"
@@ -424,6 +477,21 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-http@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.4.1.tgz#85ae33ec8337644026741a9ce47d2299645dbf5d"
+  integrity sha512-DJ2vfd3omAwzxsGXDoHUCLpJeVLttljm74nbIEIygm1KYCEBMuCqOWqmSlfUGPhXLsX1gF04/6Fm5TENJX+gAQ==
+  dependencies:
+    "@microsoft/decorators" "1.4.1"
+    "@microsoft/sp-core-library" "1.4.1"
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@types/adal" "1.0.27"
+    "@types/es6-promise" "0.0.33"
+    "@types/sinon" "1.16.34"
+    "@types/webpack-env" "1.13.1"
+    adal-angular "1.0.16"
+    tslib "~1.8.0"
+
 "@microsoft/sp-http@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.3.4.tgz#6a04754a51f7310b25860a93d9f65c8f8739e90b"
@@ -436,6 +504,27 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
     adal-angular "1.0.15"
+
+"@microsoft/sp-loader@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.4.1.tgz#5b78db4d967ccee5c922b58b48a9d6e0d94413aa"
+  integrity sha512-Wyyj/HxnpwlFxU1YGCVTfULJuW0Au/fRr4aA8efxtZa9vWYiRHIu7zEP8codwsGpJm/TYPRWlJpuxFzzWCeLLw==
+  dependencies:
+    "@microsoft/office-ui-fabric-react-bundle" "1.4.1"
+    "@microsoft/sp-core-library" "1.4.1"
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@microsoft/sp-module-interfaces" "1.4.1"
+    "@microsoft/sp-odata-types" "1.4.1"
+    "@microsoft/sp-polyfills" "1.4.1"
+    "@types/es6-promise" "0.0.33"
+    "@types/react" "15.6.6"
+    "@types/react-dom" "15.5.6"
+    "@types/requirejs" "2.1.29"
+    "@types/webpack-env" "1.13.1"
+    office-ui-fabric-react "5.21.0"
+    react "15.6.2"
+    react-dom "15.6.2"
+    requirejs "2.1.20"
 
 "@microsoft/sp-loader@~1.3.0", "@microsoft/sp-loader@~1.3.4":
   version "1.3.4"
@@ -458,6 +547,15 @@
     react-dom "15.4.2"
     requirejs "2.1.20"
 
+"@microsoft/sp-lodash-subset@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.4.1.tgz#ede8977c6f722e3b65770c5b6105b6accd91a232"
+  integrity sha512-BCpYtG14lPJi4brAiWsF73Oy18hsL/QXukqwOQW4I8xPYR2Pay3rlM2g2ga08qmRJIeUhmVmMQATLWfhxnJBKg==
+  dependencies:
+    "@types/lodash" "4.14.74"
+    "@types/webpack-env" "1.13.1"
+    tslib "~1.8.0"
+
 "@microsoft/sp-lodash-subset@~1.3.0", "@microsoft/sp-lodash-subset@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.3.4.tgz#ee906448fdedc227a7b2a12ee21dbf3336681578"
@@ -474,6 +572,15 @@
     "@types/z-schema" "3.16.31"
     z-schema "~3.18.3"
 
+"@microsoft/sp-module-interfaces@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.4.1.tgz#699024dcf65089528a4c22ff7265909b0765e942"
+  integrity sha512-bzLTTaw4a17pTteayCaNN7SNS11iHiVbsS0QoYrrhS+d3/A88a0FPM8Hcn4IV4nOG6zKV+jeBwyDi2FpkCAtOA==
+  dependencies:
+    "@types/node" "6.0.64"
+    "@types/z-schema" "3.16.31"
+    z-schema "~3.18.3"
+
 "@microsoft/sp-module-interfaces@~1.3.0", "@microsoft/sp-module-interfaces@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.3.4.tgz#6122237d3ccf20c169b49b9c8ada1ec39519d959"
@@ -482,9 +589,29 @@
     "@types/z-schema" "3.16.31"
     z-schema "~3.18.3"
 
+"@microsoft/sp-odata-types@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.4.1.tgz#b1f3375de93421cf09a1ed2979c1d4c108983da2"
+  integrity sha512-CAz/i+TQ1SCcFZEwBp5EpMMFaKF0cBTv2R+rlPLHpt+/gRvuuBf9I7yJHhRlhf4vhZ6/vzpuSKajHNriHkjk/w==
+  dependencies:
+    tslib "~1.8.0"
+
 "@microsoft/sp-odata-types@~1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.3.4.tgz#fc40b343ae2d1581715eb5bba4b5efa20dcdb14c"
+
+"@microsoft/sp-page-context@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-page-context/-/sp-page-context-1.4.1.tgz#cd4cceed62a36d6378d2bc21e944d21ccb3700c9"
+  integrity sha512-7x9Uo8L9wFPEUIeOS3PtxX4vl6n/XFt/mqIZCYmFv/NAwnZlYgciLLGiRgDdZsuWgWB/HDBsl6LjMrSH3BcaaQ==
+  dependencies:
+    "@microsoft/sp-core-library" "1.4.1"
+    "@microsoft/sp-http" "1.4.1"
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@microsoft/sp-odata-types" "1.4.1"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
+    tslib "~1.8.0"
 
 "@microsoft/sp-page-context@~1.3.4":
   version "1.3.4"
@@ -496,6 +623,18 @@
     "@microsoft/sp-odata-types" "~1.3.4"
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
+
+"@microsoft/sp-polyfills@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.4.1.tgz#ea79b9c6c7d96ba270acdcb5d78198e1aa9332dd"
+  integrity sha512-G+STNulZAOEUSkMQc4RnQq0nxUgBGEj1sBiNg1AB6uX7OlrloPJ8IHoQgYJEwEc67xKkxMIqolxOc18BRcEeug==
+  dependencies:
+    "@types/webpack-env" "1.13.1"
+    es6-collections "0.5.6"
+    es6-promise "4.1.1"
+    tslib "~1.8.0"
+    whatwg-fetch "2.0.3"
+    whatwg-url "4.7.1"
 
 "@microsoft/sp-polyfills@~1.2.0":
   version "1.2.0"
@@ -553,6 +692,33 @@
     react "15.4.2"
     react-dom "15.4.2"
     scrollreveal "3.3.6"
+
+"@microsoft/sp-webpart-base@~1.4.0":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.4.1.tgz#b0e0d7145893edb257164073a55efc3a762267a9"
+  integrity sha512-0dSvcAlFZE4fAf4ZLv0jsQrpslNJbtg/3wY/BCCYWNa4BgK2pswlH1b0rmoZ3k98ENJK3cdzpQ7J7sHOr3Ggsg==
+  dependencies:
+    "@microsoft/decorators" "1.4.1"
+    "@microsoft/load-themed-styles" "1.7.9"
+    "@microsoft/office-ui-fabric-react-bundle" "1.4.1"
+    "@microsoft/sp-component-base" "1.4.1"
+    "@microsoft/sp-core-library" "1.4.1"
+    "@microsoft/sp-http" "1.4.1"
+    "@microsoft/sp-loader" "1.4.1"
+    "@microsoft/sp-lodash-subset" "1.4.1"
+    "@microsoft/sp-module-interfaces" "1.4.1"
+    "@microsoft/sp-page-context" "1.4.1"
+    "@types/es6-promise" "0.0.33"
+    "@types/react" "15.6.6"
+    "@types/react-dom" "15.5.6"
+    "@types/scrollreveal" "0.0.2"
+    "@types/webpack-env" "1.13.1"
+    office-ui-fabric "2.6.1"
+    office-ui-fabric-react "5.21.0"
+    react "15.6.2"
+    react-dom "15.6.2"
+    scrollreveal "3.3.6"
+    tslib "~1.8.0"
 
 "@microsoft/sp-webpart-workbench@1.3.0":
   version "1.3.0"
@@ -624,6 +790,11 @@
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.32.tgz#3bcf44fb1e429f3df76188c8c6d874463ba371fd"
 
+"@types/es6-promise@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.33.tgz#280a707e62b1b6bef1a86cc0861ec63cd06c7ff3"
+  integrity sha512-HKJFVLCGrWQ/1unEw8JdaTxu6n3EUxmwTxJ6D0O1x0gD8joCsgoTWxEgevb7fp2XIogNjof3KEd+3bJoGne/nw==
+
 "@types/express-serve-static-core@*":
   version "4.0.49"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.49.tgz#3438d68d26e39db934ba941f18e3862a1beeb722"
@@ -691,6 +862,11 @@
   version "4.14.52"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.52.tgz#de5c7ab14da1289733233c9b0ec6f9e377db90f5"
 
+"@types/lodash@4.14.74":
+  version "4.14.74"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.74.tgz#ac3bd8db988e7f7038e5d22bd76a7ba13f876168"
+  integrity sha512-BZknw3E/z3JmCLqQVANcR17okqVTPZdlxvcIz0fJiJVLUCbSH1hK3zs9r634PVSmrzAxN+n/fxlVRiYoArdOIQ==
+
 "@types/log4js@*":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/log4js/-/log4js-0.0.32.tgz#c15621cfa96f92ec6b0cfb49096bdd23cd893c7c"
@@ -745,6 +921,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-dom@15.5.6":
+  version "15.5.6"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.6.tgz#7794ff7822882b59b899c30294e1b1e62e97757e"
+  integrity sha512-dP4vEDEH4rL+uUl6f//c6mjepTVdJ6Ldx3z0dZbw047T5Z+o2PZDW/Qd+I4PkTmIgk7YNAZC/TFnm3IHT5UAhw==
+  dependencies:
+    "@types/react" "^15"
+
 "@types/react@*":
   version "0.14.46"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-0.14.46.tgz#565d2b8561a39a55ccbd6c90352c52ae75ed2862"
@@ -752,6 +935,16 @@
 "@types/react@15.0.38":
   version "15.0.38"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.38.tgz#6afea31a9fe66304af474106ba372ddaba449995"
+
+"@types/react@15.6.6":
+  version "15.6.6"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.6.tgz#21c93d921d63e5c8478ad54b917f52c9abd547e2"
+  integrity sha512-a45hjEjpRira6tJM8E2/aGDqqNx9/PhtQ4GxEg7MsslTuAKdweWLH0oE2K0dgMFdzw9E2yRB6jqrA8IKXaevwQ==
+
+"@types/react@^15":
+  version "15.7.27"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.7.27.tgz#6ca13051229bc83901317c44e1a1ed86edc8ee1a"
+  integrity sha512-jLB0GLKJXo9uDjsucKzO32lMENh4fnE2tp8lWp6VfLshKoCeJt+GNERuSlucwY8zIlkqS5CA53IyeHwCaY+p3w==
 
 "@types/requirejs@2.1.29":
   version "2.1.29"
@@ -781,6 +974,11 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/sinon@1.16.34":
+  version "1.16.34"
+  resolved "https://registry.yarnpkg.com/@types/sinon/-/sinon-1.16.34.tgz#a9761fff33d0f7b3fe61875b577778a2576a9a03"
+  integrity sha512-LlnaG49HjLH4Mlom4OaQSUZq/Rn6QQMXyRqV2omEdgJzFSbb/Ssr63yGVLQCXIwjdtUSSWViP6mypV4+8B6jZw==
 
 "@types/source-map@*":
   version "0.5.0"
@@ -857,6 +1055,29 @@
   version "3.16.31"
   resolved "https://registry.yarnpkg.com/@types/z-schema/-/z-schema-3.16.31.tgz#2eb1d00a5e4ec3fa58c76afde12e182b66dc5c1c"
 
+"@uifabric/icons@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-5.2.0.tgz#8c49ff1802bed9e1a0fac7873a7c831aae54b243"
+  integrity sha512-P5kfPej/wxgR8jZt/GqnU0FqYcz+JH1iCcaaYd6p9L3opmZtu4w5duKeqs+Bc1u7K16r800EQfLgKe76rt6AuA==
+  dependencies:
+    "@uifabric/styling" ">=5.3.0 <6.0.0"
+    tslib "^1.6.0"
+
+"@uifabric/icons@>=5.2.0 <6.0.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-5.8.0.tgz#fb7e4476a88e5b6ea1d121163f924bbc35a02b28"
+  integrity sha512-EUhKxYlIPJshg4fQvCNTYSk0p7RhzEWeEAJBV4sao1SKmN0/pZBnkLbDqWjU5VUfdwZZYiIdaLRpM+pyzhniZw==
+  dependencies:
+    "@uifabric/styling" ">=5.30.1 <6.0.0"
+    tslib "^1.7.1"
+
+"@uifabric/merge-styles@>=5.17.1 <6.0.0", "@uifabric/merge-styles@>=5.6.0 <6.0.0":
+  version "5.17.1"
+  resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-5.17.1.tgz#9325817069011efb5f425e0fd163a975d9a12a3c"
+  integrity sha512-4/EtO6Ns7kNtKxC+6InShwVQeNQEDT5H8Ex7m/i4OrT9i7csje4YwBQPkkpm31qJwEZEyD7bbAwyLezI63sLhg==
+  dependencies:
+    tslib "^1.7.1"
+
 "@uifabric/styling@>=0.22.1 <1.0.0":
   version "0.24.2"
   resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-0.24.2.tgz#66e2afb17bdf8fbb58199661f973abf91a06e58d"
@@ -866,11 +1087,30 @@
     rtl-css-js "^1.1.3"
     tslib "^1.7.1"
 
+"@uifabric/styling@>=5.3.0 <6.0.0", "@uifabric/styling@>=5.30.1 <6.0.0", "@uifabric/styling@>=5.7.0 <6.0.0":
+  version "5.37.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-5.37.0.tgz#a7e47fa01a97921fecebd2031bb93d262258a555"
+  integrity sha512-3hC0itW/hWSD5J4uANzUKk8XVGWUNkU+VLjEjWsQ6i5lvwFGaanR6Qy0bTkZdFGqFWMXe91CkBHV7HnvEx7tCA==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/merge-styles" ">=5.17.1 <6.0.0"
+    "@uifabric/utilities" ">=5.34.2 <6.0.0"
+    tslib "^1.7.1"
+
 "@uifabric/utilities@>=4.13.0 <5.0.0", "@uifabric/utilities@>=4.16.0 <5.0.0":
   version "4.16.0"
   resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-4.16.0.tgz#05154c14509b0d9fe4a22c6daf21bddd2c6211e7"
   dependencies:
     "@microsoft/load-themed-styles" "^1.7.2"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
+"@uifabric/utilities@>=5.3.3 <6.0.0", "@uifabric/utilities@>=5.34.2 <6.0.0":
+  version "5.34.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-5.34.3.tgz#4cf46d5ad5c951c107a093ae2e603df4d4fe3b29"
+  integrity sha512-6dERFkNNCUrPUuNG1nxlDDvt7DN5hxb41zp9AmKhK5cXZTYCblmlLBvb/qyielCnicfoagoA+lqH9NgnSE8u/A==
+  dependencies:
+    "@uifabric/merge-styles" ">=5.17.1 <6.0.0"
     prop-types "^15.5.10"
     tslib "^1.7.1"
 
@@ -909,6 +1149,11 @@ acorn@^5.0.0:
 adal-angular@1.0.15:
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/adal-angular/-/adal-angular-1.0.15.tgz#f2a9ef82f358c444e83142ace65d3227a441043b"
+
+adal-angular@1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/adal-angular/-/adal-angular-1.0.16.tgz#e2bc31bc712aaffba053aa4dd46bc84eb5d2090f"
+  integrity sha512-tJf2bRwolKA8/J+wcy4CFOTAva8gpueHplptfjz3Wt1XOb7Y1jnwdm2VdkFZQUhxCtd/xPvcRSAQP2+ROtAD5g==
 
 after@0.8.2:
   version "0.8.2"
@@ -2164,6 +2409,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+create-react-class@^15.6.0:
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  integrity sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 cross-spawn@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
@@ -3159,6 +3412,19 @@ fbjs@^0.8.12:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
+fbjs@^0.8.9:
+  version "0.8.18"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.18.tgz#9835e0addb9aca2eff53295cd79ca1cfc7c9662a"
+  integrity sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA==
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.30"
+
 fd-slicer@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.0.1.tgz#8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
@@ -3417,7 +3683,6 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
-    node-pre-gyp "*"
 
 fstream-ignore@^1.0.5:
   version "1.0.5"
@@ -5365,7 +5630,7 @@ loose-envify@^1.0.0, loose-envify@^1.1.0:
   dependencies:
     js-tokens "^3.0.0"
 
-loose-envify@^1.4.0:
+loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
@@ -6095,6 +6360,19 @@ office-ui-fabric-react@4.40.2-hotfix.1:
     "@microsoft/load-themed-styles" "^1.7.2"
     "@uifabric/styling" ">=0.22.1 <1.0.0"
     "@uifabric/utilities" ">=4.13.0 <5.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
+office-ui-fabric-react@5.21.0:
+  version "5.21.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-5.21.0.tgz#4a89f877e54f480859939494b532e79f5179f425"
+  integrity sha512-9IBLK6JUWYvdCumKywjkSP7mf/MqTRorP1qXtb2c+w2fQJH4NkdBjanO0zr37c5VPwlqc0KvPf51E9t1NU7oTg==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.2"
+    "@uifabric/icons" ">=5.2.0 <6.0.0"
+    "@uifabric/merge-styles" ">=5.6.0 <6.0.0"
+    "@uifabric/styling" ">=5.7.0 <6.0.0"
+    "@uifabric/utilities" ">=5.3.3 <6.0.0"
     prop-types "^15.5.10"
     tslib "^1.7.1"
 
@@ -6983,6 +7261,16 @@ react-dom@15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-dom@15.6.2:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
+  integrity sha512-qxrSETbovswZ0xXs1o5+1o9NfNYbLnQWUqhef36tDWb+tGrbsHjEel5DZuncWMbO0rWd5e4AvCoJBOWm3x6p3A==
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
+
 react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -6994,6 +7282,17 @@ react@15.4.2:
     fbjs "^0.8.4"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react@15.6.2:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
+  integrity sha512-DHyivomgg2kMUWsT3mfMtIKNxJyAtlcFtCd+vWvk4u/mAsnXqrhkDVAzZR7aSS/kk2hvAS7rwlia6zyAcJjcsg==
+  dependencies:
+    create-react-class "^15.6.0"
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
 
 read-all-stream@^3.0.0:
   version "3.1.0"
@@ -8299,9 +8598,19 @@ try-json-parse@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/try-json-parse/-/try-json-parse-0.1.1.tgz#8db01622e877e51b83140caee7c80864ad390c82"
 
+tslib@^1.6.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
 tslib@^1.7.1, tslib@^1.8.1:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
+
+tslib@~1.8.0:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
+  integrity sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g==
 
 tslint-microsoft-contrib@4.0.0:
   version "4.0.0"
@@ -8409,6 +8718,11 @@ typescript@~2.4.1:
 ua-parser-js@^0.7.18, ua-parser-js@^0.7.9:
   version "0.7.33"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+
+ua-parser-js@^0.7.30:
+  version "0.7.37"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.37.tgz#e464e66dac2d33a7a1251d7d7a99d6157ec27832"
+  integrity sha512-xV8kqRKM+jhMvcHWUKthV9fNebIzrNy//2O9ZwWcfiBFR5f25XVZPLlEajk/sf3Ra15V92isyQqnIEXRDaZWEA==
 
 uglify-js@3.0.x:
   version "3.0.24"
