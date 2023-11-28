@@ -6,8 +6,8 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "@microsoft/sp-client-base": "~0.5.1",
-    "@microsoft/sp-webpart-base": "~0.2.1"
+    "@microsoft/sp-client-base": "~0.7.0",
+    "@microsoft/sp-webpart-base": "~1.3.0"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~0.8.1",
