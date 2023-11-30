@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@microsoft/sp-client-base": "~0.2.0",
-    "@microsoft/sp-client-preview": "~0.2.0",
+    "@microsoft/sp-client-preview": "~1.0.0",
     "powerbi-client": "^2.0.0"
   },
   "devDependencies": {
