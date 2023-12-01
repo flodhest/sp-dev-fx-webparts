@@ -18,9 +18,9 @@
     "@microsoft/sp-lodash-subset": "1.10.0",
     "@microsoft/sp-office-ui-fabric-core": "1.10.0",
     "@microsoft/sp-property-pane": "1.10.0",
-    "@microsoft/sp-webpart-base": "1.10.0",
+    "@microsoft/sp-webpart-base": "1.12.0",
     "@pnp/spfx-controls-react": "^1.17.0",
-    "@pnp/spfx-property-controls": "^1.17.0",
+    "@pnp/spfx-property-controls": "^3.0.0",
     "@types/es6-promise": "0.0.33",
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
@@ -33,7 +33,7 @@
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "spfx-uifabric-themes": "^0.8.0",
+    "spfx-uifabric-themes": "^0.9.0",
     "webpack-bundle-analyzer": "^3.7.0"
   },
   "resolutions": {
