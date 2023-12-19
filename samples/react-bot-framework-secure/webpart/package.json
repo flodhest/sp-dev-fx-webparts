@@ -30,7 +30,7 @@
     "react": "16.8.5",
     "react-dom": "16.8.5",
     "request": "^2.88.0",
-    "swagger-client": "^2.1.23"
+    "swagger-client": "^3.0.1"
   },
   "resolutions": {
     "@types/react": "16.8.8"
