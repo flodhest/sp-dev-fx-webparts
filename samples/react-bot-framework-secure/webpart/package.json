@@ -29,7 +29,7 @@
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "swagger-client": "^2.1.23"
   },
   "resolutions": {
