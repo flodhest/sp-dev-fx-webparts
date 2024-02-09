@@ -19,7 +19,7 @@
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "adal-angular": "^1.0.14",
     "angular": "^1.5.11",
-    "angular-ui-router": "^0.4.2",
+    "angular-ui-router": "^1.0.4",
     "ng-office-ui-fabric": "^0.14.0"
   },
   "devDependencies": {
