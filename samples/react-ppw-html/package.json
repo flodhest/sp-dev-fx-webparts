@@ -13,7 +13,7 @@
     "@microsoft/sp-lodash-subset": "1.14.0-beta.5",
     "@microsoft/sp-office-ui-fabric-core": "1.14.0-beta.5",
     "@microsoft/sp-property-pane": "1.14.0-beta.5",
-    "@microsoft/sp-webpart-base": "1.14.0-beta.5",
+    "@microsoft/sp-webpart-base": "1.14.0",
     "office-ui-fabric-react": "7.174.1",
     "property-pane-wrap": "^0.3.0",
     "react": "16.13.1",
