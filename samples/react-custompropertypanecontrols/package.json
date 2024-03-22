@@ -10,7 +10,7 @@
     "@microsoft/sp-lodash-subset": "1.14.0-beta.5",
     "@microsoft/sp-property-pane": "1.14.0-beta.5",
     "@microsoft/sp-webpart-base": "1.14.0-beta.5",
-    "@pnp/spfx-controls-react": "3.5.0",
+    "@pnp/spfx-controls-react": "3.8.0",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
     "react-addons-update": "15.6.3",
