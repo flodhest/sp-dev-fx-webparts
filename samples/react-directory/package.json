@@ -19,7 +19,7 @@
     "@microsoft/sp-lodash-subset": "1.11.0",
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.16.1",
-    "@microsoft/sp-webpart-base": "1.16.1",
+    "@microsoft/sp-webpart-base": "1.17.0",
     "@pnp/pnpjs": "^1.3.3",
     "@pnp/spfx-controls-react": "1.13.2",
     "@pnp/spfx-property-controls": "1.15.0",
