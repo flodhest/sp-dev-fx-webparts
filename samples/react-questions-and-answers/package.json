@@ -26,7 +26,7 @@
     "@pnp/odata": "2.0.10",
     "@pnp/polyfill-ie11": "2.0.2",
     "@pnp/sp": "2.0.10",
-    "@pnp/spfx-controls-react": "1.20.0",
+    "@pnp/spfx-controls-react": "3.2.0",
     "@tinymce/tinymce-react": "^3.7.0",
     "@types/es6-promise": "3.3.0",
     "@types/react-dom": "16.9.8",
