@@ -12,7 +12,7 @@
   "dependencies": {
     "@microsoft/sp-client-base": "~1.0.0",
     "@microsoft/sp-core-library": "~1.0.0",
-    "@microsoft/sp-webpart-base": "~1.0.0",
+    "@microsoft/sp-webpart-base": "~1.4.0",
     "@types/adal": "^1.0.25",
     "@types/angular": "^1.6.9",
     "@types/angular-ui-router": "^1.1.36",
