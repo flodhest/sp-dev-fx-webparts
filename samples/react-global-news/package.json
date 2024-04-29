@@ -34,7 +34,7 @@
     "react": "16.8.5",
     "react-dom": "16.8.5",
     "spfx-uifabric-themes": "^0.8.0",
-    "webpack-bundle-analyzer": "^3.7.0"
+    "webpack-bundle-analyzer": "^4.0.0"
   },
   "resolutions": {
     "@types/react": "16.8.8"
