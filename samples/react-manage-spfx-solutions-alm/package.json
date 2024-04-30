@@ -15,7 +15,7 @@
     "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.10.0",
+    "@microsoft/sp-core-library": "1.18.2",
     "@microsoft/sp-lodash-subset": "1.10.0",
     "@microsoft/sp-office-ui-fabric-core": "1.10.0",
     "@microsoft/sp-property-pane": "1.10.0",
