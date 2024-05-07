@@ -35,7 +35,7 @@
     "classnames": "^2.2.6",
     "immutable": "^4.0.0-rc.12",
     "moment": "^2.29.1",
-    "office-ui-fabric-react": "^7.145.0",
+    "office-ui-fabric-react": "^7.204.0",
     "react": "16.8.5",
     "react-dom": "16.8.5",
     "react-redux": "7.2.1",
