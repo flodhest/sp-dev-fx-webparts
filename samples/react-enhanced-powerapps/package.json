@@ -16,7 +16,7 @@
     "dependencies": {
         "@microsoft/sp-core-library": "1.13.1",
         "@microsoft/sp-lodash-subset": "1.13.1",
-        "@microsoft/sp-office-ui-fabric-core": "1.13.1",
+        "@microsoft/sp-office-ui-fabric-core": "1.18.2",
         "@microsoft/sp-property-pane": "1.13.1",
         "@microsoft/sp-webpart-base": "1.13.1",
         "@pnp/spfx-controls-react": "1.19.0",
