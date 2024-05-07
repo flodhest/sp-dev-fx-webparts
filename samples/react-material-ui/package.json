@@ -14,7 +14,7 @@
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "@microsoft/sp-core-library": "1.8.0",
-    "@microsoft/sp-lodash-subset": "1.8.0",
+    "@microsoft/sp-lodash-subset": "1.18.2",
     "@microsoft/sp-office-ui-fabric-core": "1.8.0",
     "@microsoft/sp-property-pane": "1.8.0",
     "@microsoft/sp-webpart-base": "1.8.0",
