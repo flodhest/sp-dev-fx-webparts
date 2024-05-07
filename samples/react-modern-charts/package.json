@@ -14,7 +14,7 @@
     "@types/chart.js": "0.0.14",
     "@types/es6-promise": "0.0.33",
     "@types/react": "16.8.8",
-    "@types/react-dom": "16.8.3",
+    "@types/react-dom": "16.9.24",
     "@types/webpack-env": "1.13.1",
     "chart.js": "^2.9.3",
     "color-scheme": "0.0.5",
