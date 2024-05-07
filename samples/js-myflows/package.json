@@ -11,7 +11,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.8.2",
+    "@microsoft/sp-core-library": "1.18.2",
     "@microsoft/sp-property-pane": "1.8.2",
     "@microsoft/sp-webpart-base": "1.8.2",
     "@microsoft/sp-lodash-subset": "1.8.2",
