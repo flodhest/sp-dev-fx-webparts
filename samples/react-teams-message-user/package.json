@@ -19,8 +19,8 @@
     "@microsoft/sp-webpart-base": "1.11.0",
     "@pnp/spfx-controls-react": "2.4.0",
     "office-ui-fabric-react": "6.214.0",
-    "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "@types/react": "16.8.8",
