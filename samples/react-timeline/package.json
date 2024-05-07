@@ -26,7 +26,7 @@
     "@types/webpack-env": "1.13.1",
     "@uifabric/react-cards": "^0.109.104",
     "moment": "^2.27.0",
-    "office-ui-fabric-react": "6.189.2",
+    "office-ui-fabric-react": "6.214.1",
     "react": "16.8.5",
     "react-dom": "16.8.5"
   },
