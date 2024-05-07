@@ -12,7 +12,7 @@
   "dependencies": {
     "@microsoft/sp-core-library": "1.15.2",
     "@microsoft/sp-lodash-subset": "1.15.2",
-    "@microsoft/sp-office-ui-fabric-core": "1.15.2",
+    "@microsoft/sp-office-ui-fabric-core": "1.18.2",
     "@microsoft/sp-property-pane": "1.15.2",
     "@microsoft/sp-webpart-base": "1.15.2",
     "@pnp/sp": "^3.8.0",
