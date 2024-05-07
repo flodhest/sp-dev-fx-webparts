@@ -9,7 +9,7 @@
     "name": "Franck Cornu @FranckCornu (http://thecollaborationcorner.com)"
   },
   "dependencies": {
-    "@microsoft/sp-client-base": "~0.4.0",
+    "@microsoft/sp-client-base": "~0.7.0",
     "@microsoft/sp-webpart-base": "^0.1.0",
     "@types/pluralize": "0.0.27",
     "@types/socket.io-client": "^1.4.27",
