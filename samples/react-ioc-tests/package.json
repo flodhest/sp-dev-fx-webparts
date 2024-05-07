@@ -11,7 +11,7 @@
     "test": "jest --maxWorkers=2"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.10.0",
+    "@microsoft/sp-core-library": "1.18.2",
     "@microsoft/sp-lodash-subset": "1.10.0",
     "@microsoft/sp-office-ui-fabric-core": "1.10.0",
     "@microsoft/sp-webpart-base": "1.10.0",
