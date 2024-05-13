@@ -12,7 +12,7 @@
     "ship": "gulp clean && gulp bundle --debug && gulp package-solution --ship"
   },
   "dependencies": {
-    "@microsoft/rush-stack-compiler-4.2": "^0.1.2",
+    "@microsoft/rush-stack-compiler-4.2": "^0.2.0",
     "@microsoft/sp-core-library": "1.15.2",
     "@microsoft/sp-lodash-subset": "1.15.2",
     "@microsoft/sp-office-ui-fabric-core": "1.15.2",
