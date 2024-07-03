@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.7.1-plusbeta",
-    "@microsoft/sp-webpart-base": "1.7.1-plusbeta",
+    "@microsoft/sp-webpart-base": "1.12.1",
     "@microsoft/sp-lodash-subset": "1.7.1-plusbeta",
     "@microsoft/sp-office-ui-fabric-core": "1.7.1-plusbeta",
     "@types/webpack-env": "1.13.1",
