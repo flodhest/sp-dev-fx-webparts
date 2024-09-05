@@ -7,10 +7,10 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "~1.1.0",
-    "@microsoft/sp-webpart-base": "~1.1.1",
+    "@microsoft/sp-webpart-base": "~1.12.1",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
     "@types/react": "0.14.46",
     "@types/react-dom": "0.14.18",
     "@types/react-addons-shallow-compare": "0.14.17",
