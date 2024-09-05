@@ -15,7 +15,7 @@
     "@microsoft/sp-lodash-subset": "1.11.0",
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.16.1",
-    "@microsoft/sp-webpart-base": "1.16.1",
+    "@microsoft/sp-webpart-base": "1.17.0",
     "@pnp/sp": "^2.0.6",
     "array-to-tree": "^3.3.0",
     "office-ui-fabric-react": "6.214.0",
