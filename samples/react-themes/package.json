@@ -10,8 +10,8 @@
     "@microsoft/sp-lodash-subset": "1.11.0",
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
-    "@microsoft/sp-webpart-base": "1.11.0",
-    "@pnp/spfx-controls-react": "^2.1.0",
+    "@microsoft/sp-webpart-base": "1.12.1",
+    "@pnp/spfx-controls-react": "^3.13.0",
     "@uifabric/utilities": "^7.33.2",
     "react": "16.8.5",
     "react-dom": "16.8.5"
