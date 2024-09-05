@@ -14,8 +14,8 @@
     "@microsoft/sp-core-library": "1.13.0",
     "@microsoft/sp-lodash-subset": "1.13.0",
     "@microsoft/sp-office-ui-fabric-core": "1.13.0",
-    "@microsoft/sp-webpart-base": "1.13.0",
-    "@pnp/spfx-property-controls": "3.3.0"
+    "@microsoft/sp-webpart-base": "1.16.0",
+    "@pnp/spfx-property-controls": "3.11.0"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-3.9": "0.4.47",
