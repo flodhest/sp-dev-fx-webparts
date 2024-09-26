@@ -14,7 +14,7 @@
   "dependencies": {
     "@microsoft/sp-core-library": "1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
-    "@microsoft/sp-webpart-base": "1.11.0",
+    "@microsoft/sp-webpart-base": "1.20.0",
     "@pnp/spfx-controls-react": "2.3.0",
     "@pnp/spfx-property-controls": "2.2.0",
     "@types/react": "16.8.8",
