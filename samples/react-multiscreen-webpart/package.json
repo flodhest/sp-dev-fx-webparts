@@ -12,7 +12,7 @@
     "@microsoft/sp-lodash-subset": "1.12.1",
     "@microsoft/sp-office-ui-fabric-core": "1.12.1",
     "@microsoft/sp-property-pane": "1.12.1",
-    "@microsoft/sp-webpart-base": "1.12.1",
+    "@microsoft/sp-webpart-base": "1.20.0",
     "@types/react-router-dom": "4.3.4",
     "office-ui-fabric-react": "7.156.0",
     "react": "16.9.0",
