@@ -14,7 +14,7 @@
     "@microsoft/sp-office-ui-fabric-core": "1.12.1",
     "@microsoft/sp-property-pane": "1.12.1",
     "@microsoft/sp-webpart-base": "1.12.1",
-    "@pnp/spfx-controls-react": "^3.3.0",
+    "@pnp/spfx-controls-react": "^3.8.0",
     "@pnp/spfx-property-controls": "^3.2.0",
     "@uifabric/file-type-icons": "^7.8.1",
     "date-fns": "^2.25.0",
