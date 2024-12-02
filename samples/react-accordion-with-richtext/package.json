@@ -17,8 +17,8 @@
     "@microsoft/sp-webpart-base": "1.13.0",
     "@microsoft/sp-lodash-subset": "1.13.0",
     "@microsoft/sp-office-ui-fabric-core": "1.13.0",
-    "@pnp/spfx-controls-react": "^3.5.0",
-    "@pnp/spfx-property-controls": "^3.3.0",
+    "@pnp/spfx-controls-react": "^3.20.0",
+    "@pnp/spfx-property-controls": "^3.19.0",
     "@tinymce/tinymce-react": "^2.2.5"
   },
   "devDependencies": {
