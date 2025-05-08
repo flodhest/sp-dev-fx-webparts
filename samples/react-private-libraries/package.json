@@ -12,7 +12,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-react-js": "3.0.3",
+    "@microsoft/applicationinsights-react-js": "3.2.2",
     "@microsoft/applicationinsights-web": "2.5.8",
     "@microsoft/sp-core-library": "1.10.0",
     "@microsoft/sp-lodash-subset": "1.10.0",
