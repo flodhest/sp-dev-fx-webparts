@@ -24,8 +24,8 @@
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "react-toastify": "^5.4.0",
-    "semantic-ui-react": "^0.88.1"
+    "react-toastify": "^7.0.0",
+    "semantic-ui-react": "^2.0.0"
   },
   "resolutions": {
     "@types/react": "16.8.8"
