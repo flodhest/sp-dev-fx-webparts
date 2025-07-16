@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@fluentui/react": "^8.23.2",
-    "@pnp/spfx-controls-react": "^3.2.1",
-    "@pnp/spfx-property-controls": "^3.2.0",
+    "@pnp/spfx-controls-react": "^3.14.0",
+    "@pnp/spfx-property-controls": "^3.13.0",
     "@rehooks/component-size": "^1.0.3",
     "moment": "^2.29.2",
     "react-slick": "^0.28.1",
@@ -22,7 +22,7 @@
     "office-ui-fabric-react": "7.181.1",
     "@microsoft/sp-core-library": "1.15.0-beta.1",
     "@microsoft/sp-property-pane": "1.15.0-beta.1",
-    "@microsoft/sp-webpart-base": "1.15.0-beta.1",
+    "@microsoft/sp-webpart-base": "1.17.0",
     "@microsoft/sp-lodash-subset": "1.15.0-beta.1",
     "@microsoft/sp-component-base": "1.15.0-beta.1",
     "@microsoft/sp-office-ui-fabric-core": "1.15.0-beta.1"
