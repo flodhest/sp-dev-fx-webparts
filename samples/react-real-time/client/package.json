@@ -18,7 +18,7 @@
     "react": "0.14.8",
     "react-addons-update": "^15.3.2",
     "react-dom": "0.14.8",
-    "socket.io-client": "^1.5.0",
+    "socket.io-client": "^2.2.0",
     "sp-pnp-js": "^1.0.5"
   },
   "devDependencies": {
