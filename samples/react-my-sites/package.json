@@ -15,7 +15,7 @@
     "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
+    "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "@microsoft/sp-core-library": "1.11.0",
     "@microsoft/sp-lodash-subset": "1.11.0",
