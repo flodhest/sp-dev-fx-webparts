@@ -1,0 +1,524 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/core > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/core > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/core > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/core > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/core > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/core > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/core > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/core > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > abort-controller-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          abort-controller-es5 > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > abort-controller-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          abort-controller-es5 > @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/preset-modules >
+          @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > abort-controller-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          abort-controller-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-exponentiation-operator
+          > @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-transform-dotall-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > abort-controller-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          abort-controller-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-exponentiation-operator
+          > @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > markdown-it-attrs-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > markdown-it-attrs-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > abort-controller-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          abort-controller-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-component > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > web-speech-cognitive-services > event-target-shim-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services >
+          event-target-shim-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-directlinespeech-sdk > p-defer-es5
+          > @babel/preset-env > @babel/plugin-transform-exponentiation-operator
+          > @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-core > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > web-speech-cognitive-services > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > web-speech-cognitive-services > p-defer-es5 >
+          @babel/preset-env > @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - botframework-webchat > botframework-webchat-component > botframework-webchat-core > p-defer-es5 > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2025-09-03T08:33:44.440Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          botframework-webchat > botframework-webchat-component >
+          botframework-webchat-core > p-defer-es5 > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
