@@ -23,7 +23,7 @@
     "@microsoft/sp-webpart-base": "1.16.1",
     "@pnp/core": "^3.13.0",
     "@pnp/logging": "^3.13.0",
-    "@pnp/spfx-controls-react": "^3.12.0",
+    "@pnp/spfx-controls-react": "^3.21.0",
     "@pnp/telemetry-js": "^2.0.0",
     "chart.js": "2.9.4",
     "color": "4.2.3",
