@@ -13,27 +13,30 @@
     "postversion": "gulp dist",
     "test": "./node_modules/.bin/jest --config ./config/jest.config.json",
     "test:watch": "./node_modules/.bin/jest --config ./config/jest.config.json --watchAll",
-    "serve": "cross-env NODE_OPTIONS=--max_old_space_size=4096 gulp bundle --custom-serve && cross-env NODE_OPTIONS=--max_old_space_size=4096 webpack-dev-server --mode development --config ./webpack.js --env.env=dev"
+    "serve": "cross-env NODE_OPTIONS=--max_old_space_size=4096 gulp bundle --custom-serve && cross-env NODE_OPTIONS=--max_old_space_size=4096 webpack-dev-server --mode development --config ./webpack.js --env.env=dev",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.13.0",
     "@microsoft/sp-lodash-subset": "1.13.0",
     "@microsoft/sp-office-ui-fabric-core": "1.13.0",
     "@microsoft/sp-property-pane": "1.13.0",
-    "@microsoft/sp-webpart-base": "1.11.0",
+    "@microsoft/sp-webpart-base": "1.16.0",
     "@microsoft/sp-webpart-workbench": "^1.12.1",
     "@pnp/pnpjs": "^2.0.6",
-    "@pnp/spfx-controls-react": "1.19.0",
-    "@pnp/spfx-property-controls": "1.19.0",
+    "@pnp/spfx-controls-react": "3.2.0",
+    "@pnp/spfx-property-controls": "3.0.0",
     "@types/jquery": "^3.5.0",
     "@uifabric/file-type-icons": "^7.6.11",
     "date-fns": "^2.25.0",
     "jquery": "^3.5.1",
     "jsstore": "^3.10.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "^1.12.0",
@@ -70,5 +73,6 @@
   "jest-junit": {
     "output": "temp/test/junit/junit.xml",
     "usePathForSuiteName": "true"
-  }
+  },
+  "snyk": true
 }
