@@ -8,7 +8,7 @@
   "dependencies": {
     "@microsoft/sp-client-base": "~0.7.0",
     "@microsoft/sp-core-library": "~0.1.2",
-    "@microsoft/sp-webpart-base": "^0.4.0",
+    "@microsoft/sp-webpart-base": "^1.4.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "office-ui-fabric-react": "^1.5.0",
     "react": "0.14.8",
