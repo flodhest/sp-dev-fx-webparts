@@ -21,7 +21,7 @@
         "@types/react-dom": "16.8.3",
         "@types/webpack-env": "1.13.1",
         "@uifabric/file-type-icons": "7.6.16",
-        "lodash": "^4.17.4",
+        "lodash": "^4.17.23",
         "natives": "^1.1.6",
         "office-ui-fabric-react": "7.148.1",
         "react": "16.8.5",
